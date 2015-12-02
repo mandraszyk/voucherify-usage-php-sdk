@@ -1,12 +1,6 @@
 {
     "name": "mandraszyk/voucherify-usage-php-sdk",
     "require": {
-        "rspective/voucherify": "@dev"
-    },
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/rspective/voucherify-php-sdk.git"
-        }
-    ]
+        "rspective/voucherify": "dev-master"
+    }
 }
