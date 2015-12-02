@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rspective/voucherify-php-sdk.git",
-                "reference": "cc5e6472f676b7cee21b42417734c64e2f72bc99"
+                "reference": "4984d47988e4b37293342aa3e5fc596d4ab0a6b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rspective/voucherify-php-sdk/zipball/cc5e6472f676b7cee21b42417734c64e2f72bc99",
-                "reference": "cc5e6472f676b7cee21b42417734c64e2f72bc99",
+                "url": "https://api.github.com/repos/rspective/voucherify-php-sdk/zipball/4984d47988e4b37293342aa3e5fc596d4ab0a6b7",
+                "reference": "4984d47988e4b37293342aa3e5fc596d4ab0a6b7",
                 "shasum": ""
             },
             "require": {
@@ -35,14 +35,14 @@
             "license": [
                 "MIT"
             ],
-            "description": "PHP SDK for Voucherify.",
-            "homepage": "https://github.com/rspective/voucherify-php-sdk",
+            "description": "PHP SDK for Voucherify. Please visit: www.voucherify.io",
+            "homepage": "http://www.voucherify.io/",
             "keywords": [
                 "rspective",
                 "voucher",
                 "voucherify"
             ],
-            "time": "2015-12-02 12:35:30"
+            "time": "2015-12-02 14:01:59"
         }
     ],
     "packages-dev": [],
