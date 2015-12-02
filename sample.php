@@ -13,8 +13,19 @@
     // Create new VoucherifyClient instance
     $voucherify = new VoucherifyClient($apiID, $apiKey);
     
-    // Get and print sample voucher details
+    // method: Get
+    echo("Voucherify: GET\n");
     $result = $voucherify->get($voucherCode);
-    echo(json_encode($result));
+    echo(json_encode($result) . "\n\n");
+    
+    // method: Redemptions
+    echo("Voucherify: REDEMPTION\n");
+    $result = $voucherify->redemption($voucherCode);
+    echo(json_encode($result) . "\n\n");
+    
+    // method: Redeem (by Code)
+    echo("Voucherify: REDEEM\n");
+    $result = $voucherify->redeem($voucherCode, NULL);
+    echo(json_encode($result) . "\n\n");
 
 ?>

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4d5e8df1cad1558868aebc2a0f46db67",
-    "content-hash": "6cf9e1defecd896a6c54c503b1a65777",
+    "hash": "581fa544fada3382f3d5e0a53e08898e",
+    "content-hash": "252275a81e7424e99932de02399b9478",
     "packages": [
         {
             "name": "rspective/voucherify",
@@ -13,13 +13,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rspective/voucherify-php-sdk.git",
-                "reference": "bf9302572d1adcdcc9e47175521f1ee2d6b172b2"
+                "reference": "cc5e6472f676b7cee21b42417734c64e2f72bc99"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rspective/voucherify-php-sdk/zipball/cc5e6472f676b7cee21b42417734c64e2f72bc99",
+                "reference": "cc5e6472f676b7cee21b42417734c64e2f72bc99",
+                "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
                 "ext-json": "*"
             },
             "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Voucherify\\": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -30,7 +42,7 @@
                 "voucher",
                 "voucherify"
             ],
-            "time": "2015-12-02 10:15:32"
+            "time": "2015-12-02 12:35:30"
         }
     ],
     "packages-dev": [],
