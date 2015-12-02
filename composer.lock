@@ -1,0 +1,46 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "4d5e8df1cad1558868aebc2a0f46db67",
+    "content-hash": "6cf9e1defecd896a6c54c503b1a65777",
+    "packages": [
+        {
+            "name": "rspective/voucherify",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rspective/voucherify-php-sdk.git",
+                "reference": "bf9302572d1adcdcc9e47175521f1ee2d6b172b2"
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHP SDK for Voucherify.",
+            "homepage": "https://github.com/rspective/voucherify-php-sdk",
+            "keywords": [
+                "rspective",
+                "voucher",
+                "voucherify"
+            ],
+            "time": "2015-12-02 10:15:32"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "rspective/voucherify": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
