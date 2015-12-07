@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "581fa544fada3382f3d5e0a53e08898e",
-    "content-hash": "252275a81e7424e99932de02399b9478",
+    "hash": "48282e0de3458daa815fa2834b84f475",
+    "content-hash": "7745b2b27c9121a52f4f89ac8483f80d",
     "packages": [
         {
             "name": "rspective/voucherify",
-            "version": "dev-master",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rspective/voucherify-php-sdk.git",
-                "reference": "4984d47988e4b37293342aa3e5fc596d4ab0a6b7"
+                "reference": "876a457997cf0ae9e3c4edd52bdf4b645ce6efee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rspective/voucherify-php-sdk/zipball/4984d47988e4b37293342aa3e5fc596d4ab0a6b7",
-                "reference": "4984d47988e4b37293342aa3e5fc596d4ab0a6b7",
+                "url": "https://api.github.com/repos/rspective/voucherify-php-sdk/zipball/876a457997cf0ae9e3c4edd52bdf4b645ce6efee",
+                "reference": "876a457997cf0ae9e3c4edd52bdf4b645ce6efee",
                 "shasum": ""
             },
             "require": {
@@ -42,15 +42,13 @@
                 "voucher",
                 "voucherify"
             ],
-            "time": "2015-12-02 14:01:59"
+            "time": "2015-12-07 14:13:22"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "rspective/voucherify": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

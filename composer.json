@@ -1,6 +1,6 @@
 {
     "name": "mandraszyk/voucherify-usage-php-sdk",
     "require": {
-        "rspective/voucherify": "dev-master"
+        "rspective/voucherify": "v0.1.0"
     }
 }
